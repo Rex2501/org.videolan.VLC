@@ -1,5 +1,5 @@
 diff --git a/share/vlc.appdata.xml.in.in b/share/vlc.appdata.xml.in.in
-index cc9c39a..e55c8d6 100644
+index 98b4349166..4496c19cef 100644
 --- a/share/vlc.appdata.xml.in.in
 +++ b/share/vlc.appdata.xml.in.in
 @@ -14,11 +14,12 @@
@@ -16,21 +16,18 @@ index cc9c39a..e55c8d6 100644
      </releases>
      <provides>
          <library>libvlc.so.5</library>
-@@ -26,16 +27,9 @@
-     <project_group>VideoLAN</project_group>
-     <project_license>GPL-2.0+</project_license>
+@@ -28,14 +29,7 @@
      <developer_name>VideoLAN et al.</developer_name>
--    <update_contact>vlc-devel -- videolan.org</update_contact>
-+    <update_contact>matmaul_at_gmail.com</update_contact>
+     <update_contact>vlc-devel -- videolan.org</update_contact>
      <screenshots>
 -        <screenshot type="default">
--            <image>http://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-poney.jpg</image>
+-            <image>https://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-poney.jpg</image>
 -        </screenshot>
 -        <screenshot type="default">
--            <image>http://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-open.jpg</image>
+-            <image>https://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-open.jpg</image>
 -        </screenshot>
 -        <screenshot type="default">
--            <image>http://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-debian.jpg</image>
+-            <image>https://images.videolan.org/vlc/screenshots/2.0.0/vlc-2.0-gnome3-debian.jpg</image>
 -        </screenshot>
 +        <screenshot type="default"><image type="source">https://raw.githubusercontent.com/flathub/org.videolan.VLC/master/vlc_screenshot_gnome3.jpg</image></screenshot>
 +        <screenshot><image type="source">https://raw.githubusercontent.com/flathub/org.videolan.VLC/master/vlc_screenshot_gnome3_dark.jpg</image></screenshot>
